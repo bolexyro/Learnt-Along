@@ -11,6 +11,7 @@
 # The objects that are defined in the module remain in the module’s private symbol table.
 
 # From the caller, objects in the module are only accessible when prefixed with <module_name> via dot notation
+# except if those objects are prefixed with an underscore which makes them private
 
 # After the following import statement, mod is placed into the local symbol table. 
 # Thus, mod has meaning in the caller’s local context:
