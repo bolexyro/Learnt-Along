@@ -1,0 +1,1 @@
+chatgpt link => https://chatgpt.com/share/67596e21-6be4-8005-9330-5086a1adc910
