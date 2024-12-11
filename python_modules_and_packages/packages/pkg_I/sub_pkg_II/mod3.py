@@ -8,7 +8,8 @@ class Baz:
 # (in the event that the sibling contains some functionality that you need). 
 # For example, suppose you want to import and execute function foo() 
 # (defined in module mod1) from within module mod3. You can either use an absolute import:
-
+import sys
+print(sys.path)
 from pkg_I.sub_pgk_I.mod1 import foo
 foo()
 
